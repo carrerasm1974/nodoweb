@@ -164,20 +164,17 @@
             <p data-i18n="newsletter.description">Recibe las últimas novedades sobre soluciones de monitoreo y diagnóstico para equipos de alta tensión.</p>
             
             <div class="newsletter-form">
-                <form id="mc-embedded-subscribe-form" data-netlify="true" method="post" name="lista_dist"  action="/gracias.html">
-                    <div class="form-group">
-                        <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Correo electrónico" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="FNAME" id="mce-FNAME" placeholder="Nombre">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="COMPANY" id="mce-COMPANY" placeholder="Empresa">
-                    </div>
-                    <div class="form-submit">
-                        <button type="submit" name="subscribe" id="mc-embedded-subscribe" data-i18n="newsletter.subscribe">Suscribirse</button>
-                    </div>
-                </form>
+                <form name="contact" netlify>
+                    <p>
+                      <label>Name <input type="text" name="name" /></label>
+                    </p>
+                    <p>
+                      <label>Email <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                      <button type="submit">Send</button>
+                    </p>
+                  </form>
             </div>
         </div>
     </section>
