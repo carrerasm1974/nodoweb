@@ -1,0 +1,377 @@
+{
+  "es": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "services": "Servicios",
+      "solutions": "Soluciones",
+      "contact": "Contacto"
+    },
+    "solutions_submenu": {
+      "transformer_monitoring": "Monitoreo de Transformadores",
+      "equipment_diagnosis": "Diagnóstico de Equipos",
+      "communication_systems": "Sistemas de Comunicación"
+    },
+    "hero": {
+      "title": "SOLUCIONES DE MONITOREO Y DIAGNÓSTICO",
+      "subtitle": "Para equipos primarios de alta tensión en Latinoamérica",
+      "button": "Conocer más"
+    },
+    "representatives": {
+      "title": "Nuestras Representadas",
+      "description": "En Nodo Reliability representamos a empresas líderes en el sector de monitoreo y diagnóstico de equipos de alta tensión, ofreciendo soluciones de calidad para el mercado latinoamericano.",
+      "dynamic_ratings": {
+        "title": "Dynamic Ratings",
+        "description": "Soluciones avanzadas para el monitoreo y diagnóstico de transformadores y equipos de alta tensión."
+      },
+      "coming_soon": {
+        "title": "Próximamente",
+        "description": "Estamos en constante búsqueda de nuevas representadas para ampliar nuestra oferta de soluciones."
+      }
+    },
+    "solutions": {
+      "title": "Nuestras Soluciones",
+      "description": "Ofrecemos soluciones integrales para el monitoreo y diagnóstico de equipos primarios de alta tensión, adaptadas a las necesidades específicas de cada cliente.",
+      "transformer_monitoring": {
+        "title": "Monitoreo de Transformadores",
+        "description": "Sistemas avanzados para el monitoreo en tiempo real de transformadores de potencia, permitiendo la detección temprana de fallos y la optimización del mantenimiento.",
+        "features": [
+          "Monitoreo de gases disueltos",
+          "Monitoreo de temperatura",
+          "Monitoreo de bushings"
+        ]
+      },
+      "equipment_diagnosis": {
+        "title": "Diagnóstico de Equipos",
+        "description": "Herramientas y servicios para el diagnóstico preciso del estado de equipos primarios de alta tensión, facilitando la toma de decisiones para el mantenimiento preventivo.",
+        "features": [
+          "Análisis de aceite",
+          "Pruebas eléctricas",
+          "Inspecciones termográficas"
+        ]
+      },
+      "communication_systems": {
+        "title": "Sistemas de Comunicación",
+        "description": "Soluciones de comunicación robustas y confiables para la transmisión de datos desde los equipos de monitoreo hasta los centros de control y análisis.",
+        "features": [
+          "Comunicación inalámbrica",
+          "Protocolos industriales",
+          "Integración con SCADA"
+        ]
+      },
+      "see_more": "Ver más"
+    },
+    "value": {
+      "title": "Nuestro Valor Agregado",
+      "description": "En Nodo Reliability nos distinguimos por ofrecer un servicio integral y personalizado, respaldado por nuestra experiencia y conocimiento técnico.",
+      "technical_experience": {
+        "title": "Experiencia Técnica",
+        "description": "Contamos con un equipo de profesionales con amplia experiencia en el sector eléctrico y conocimiento especializado en equipos de alta tensión."
+      },
+      "local_presence": {
+        "title": "Presencia Local",
+        "description": "Ofrecemos soporte local en Latinoamérica, entendiendo las necesidades específicas del mercado y proporcionando soluciones adaptadas a cada región."
+      },
+      "continuous_support": {
+        "title": "Soporte Continuo",
+        "description": "Brindamos acompañamiento durante todo el ciclo de vida de nuestras soluciones, desde la implementación hasta el mantenimiento y actualización."
+      },
+      "guaranteed_quality": {
+        "title": "Calidad Garantizada",
+        "description": "Trabajamos con marcas reconocidas a nivel mundial, garantizando la calidad y confiabilidad de todas nuestras soluciones."
+      }
+    },
+    "footer": {
+      "about": "Sobre Nosotros",
+      "services": "Nuestros Servicios",
+      "solutions": "Soluciones",
+      "contact": "Contacto",
+      "transformer_monitoring": "Monitoreo de Transformadores",
+      "equipment_diagnosis": "Diagnóstico de Equipos",
+      "communication_systems": "Sistemas de Comunicación",
+      "copyright": "© 2025 Nodo Reliability. Todos los derechos reservados."
+    },
+    "buttons": {
+      "download": "Descargar ficha técnica",
+      "contact_now": "Contactar ahora"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Estamos aquí para ayudarte",
+      "form": {
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
+        "company": "Empresa",
+        "message": "Mensaje",
+        "submit": "Enviar mensaje"
+      },
+      "info": {
+        "title": "Información de contacto",
+        "email": "info@nodoreliability.com",
+        "phone": "+123 456 7890",
+        "address": "Latinoamérica"
+      }
+    },
+    "newsletter": {
+      "title": "Suscríbete a nuestro Newsletter",
+      "description": "Recibe las últimas novedades sobre soluciones de monitoreo y diagnóstico para equipos de alta tensión.",
+      "email_placeholder": "Correo electrónico",
+      "name_placeholder": "Nombre",
+      "company_placeholder": "Empresa",
+      "subscribe_button": "Suscribirse",
+      "success_message": "¡Gracias por suscribirte!",
+      "error_message": "Ocurrió un error. Por favor, intenta nuevamente."
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "solutions": "Solutions",
+      "contact": "Contact"
+    },
+    "solutions_submenu": {
+      "transformer_monitoring": "Transformer Monitoring",
+      "equipment_diagnosis": "Equipment Diagnosis",
+      "communication_systems": "Communication Systems"
+    },
+    "hero": {
+      "title": "MONITORING AND DIAGNOSTIC SOLUTIONS",
+      "subtitle": "For high voltage primary equipment in Latin America",
+      "button": "Learn more"
+    },
+    "representatives": {
+      "title": "Our Representatives",
+      "description": "At Nodo Reliability we represent leading companies in the monitoring and diagnosis sector for high voltage equipment, offering quality solutions for the Latin American market.",
+      "dynamic_ratings": {
+        "title": "Dynamic Ratings",
+        "description": "Advanced solutions for monitoring and diagnosis of transformers and high voltage equipment."
+      },
+      "coming_soon": {
+        "title": "Coming Soon",
+        "description": "We are constantly looking for new representatives to expand our solution offerings."
+      }
+    },
+    "solutions": {
+      "title": "Our Solutions",
+      "description": "We offer comprehensive solutions for monitoring and diagnosis of high voltage primary equipment, adapted to the specific needs of each client.",
+      "transformer_monitoring": {
+        "title": "Transformer Monitoring",
+        "description": "Advanced systems for real-time monitoring of power transformers, allowing early detection of failures and maintenance optimization.",
+        "features": [
+          "Dissolved gas monitoring",
+          "Temperature monitoring",
+          "Bushings monitoring"
+        ]
+      },
+      "equipment_diagnosis": {
+        "title": "Equipment Diagnosis",
+        "description": "Tools and services for precise diagnosis of high voltage primary equipment status, facilitating decision-making for preventive maintenance.",
+        "features": [
+          "Oil analysis",
+          "Electrical tests",
+          "Thermographic inspections"
+        ]
+      },
+      "communication_systems": {
+        "title": "Communication Systems",
+        "description": "Robust and reliable communication solutions for data transmission from monitoring equipment to control and analysis centers.",
+        "features": [
+          "Wireless communication",
+          "Industrial protocols",
+          "SCADA integration"
+        ]
+      },
+      "see_more": "See more"
+    },
+    "value": {
+      "title": "Our Added Value",
+      "description": "At Nodo Reliability we distinguish ourselves by offering a comprehensive and personalized service, backed by our experience and technical knowledge.",
+      "technical_experience": {
+        "title": "Technical Experience",
+        "description": "We have a team of professionals with extensive experience in the electrical sector and specialized knowledge in high voltage equipment."
+      },
+      "local_presence": {
+        "title": "Local Presence",
+        "description": "We offer local support in Latin America, understanding the specific needs of the market and providing solutions adapted to each region."
+      },
+      "continuous_support": {
+        "title": "Continuous Support",
+        "description": "We provide accompaniment throughout the entire life cycle of our solutions, from implementation to maintenance and updates."
+      },
+      "guaranteed_quality": {
+        "title": "Guaranteed Quality",
+        "description": "We work with globally recognized brands, guaranteeing the quality and reliability of all our solutions."
+      }
+    },
+    "footer": {
+      "about": "About Us",
+      "services": "Our Services",
+      "solutions": "Solutions",
+      "contact": "Contact",
+      "transformer_monitoring": "Transformer Monitoring",
+      "equipment_diagnosis": "Equipment Diagnosis",
+      "communication_systems": "Communication Systems",
+      "copyright": "© 2025 Nodo Reliability. All rights reserved."
+    },
+    "buttons": {
+      "download": "Download datasheet",
+      "contact_now": "Contact now"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "We're here to help",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "company": "Company",
+        "message": "Message",
+        "submit": "Send message"
+      },
+      "info": {
+        "title": "Contact information",
+        "email": "info@nodoreliability.com",
+        "phone": "+123 456 7890",
+        "address": "Latin America"
+      }
+    },
+    "newsletter": {
+      "title": "Subscribe to our Newsletter",
+      "description": "Receive the latest news about monitoring and diagnostic solutions for high voltage equipment.",
+      "email_placeholder": "Email address",
+      "name_placeholder": "Name",
+      "company_placeholder": "Company",
+      "subscribe_button": "Subscribe",
+      "success_message": "Thank you for subscribing!",
+      "error_message": "An error occurred. Please try again."
+    }
+  },
+  "pt": {
+    "nav": {
+      "home": "Início",
+      "about": "Sobre Nós",
+      "services": "Serviços",
+      "solutions": "Soluções",
+      "contact": "Contato"
+    },
+    "solutions_submenu": {
+      "transformer_monitoring": "Monitoramento de Transformadores",
+      "equipment_diagnosis": "Diagnóstico de Equipamentos",
+      "communication_systems": "Sistemas de Comunicação"
+    },
+    "hero": {
+      "title": "SOLUÇÕES DE MONITORAMENTO E DIAGNÓSTICO",
+      "subtitle": "Para equipamentos primários de alta tensão na América Latina",
+      "button": "Saiba mais"
+    },
+    "representatives": {
+      "title": "Nossos Representados",
+      "description": "Na Nodo Reliability representamos empresas líderes no setor de monitoramento e diagnóstico de equipamentos de alta tensão, oferecendo soluções de qualidade para o mercado latino-americano.",
+      "dynamic_ratings": {
+        "title": "Dynamic Ratings",
+        "description": "Soluções avançadas para o monitoramento e diagnóstico de transformadores e equipamentos de alta tensão."
+      },
+      "coming_soon": {
+        "title": "Em breve",
+        "description": "Estamos constantemente buscando novos representados para ampliar nossa oferta de soluções."
+      }
+    },
+    "solutions": {
+      "title": "Nossas Soluções",
+      "description": "Oferecemos soluções integrais para o monitoramento e diagnóstico de equipamentos primários de alta tensão, adaptadas às necessidades específicas de cada cliente.",
+      "transformer_monitoring": {
+        "title": "Monitoramento de Transformadores",
+        "description": "Sistemas avançados para o monitoramento em tempo real de transformadores de potência, permitindo a detecção precoce de falhas e a otimização da manutenção.",
+        "features": [
+          "Monitoramento de gases dissolvidos",
+          "Monitoramento de temperatura",
+          "Monitoramento de buchas"
+        ]
+      },
+      "equipment_diagnosis": {
+        "title": "Diagnóstico de Equipamentos",
+        "description": "Ferramentas e serviços para o diagnóstico preciso do estado de equipamentos primários de alta tensão, facilitando a tomada de decisões para a manutenção preventiva.",
+        "features": [
+          "Análise de óleo",
+          "Testes elétricos",
+          "Inspeções termográficas"
+        ]
+      },
+      "communication_systems": {
+        "title": "Sistemas de Comunicação",
+        "description": "Soluções de comunicação robustas e confiáveis para a transmissão de dados dos equipamentos de monitoramento até os centros de controle e análise.",
+        "features": [
+          "Comunicação sem fio",
+          "Protocolos industriais",
+          "Integração com SCADA"
+        ]
+      },
+      "see_more": "Ver mais"
+    },
+    "value": {
+      "title": "Nosso Valor Agregado",
+      "description": "Na Nodo Reliability nos distinguimos por oferecer um serviço integral e personalizado, respaldado por nossa experiência e conhecimento técnico.",
+      "technical_experience": {
+        "title": "Experiência Técnica",
+        "description": "Contamos com uma equipe de profissionais com ampla experiência no setor elétrico e conhecimento especializado em equipamentos de alta tensão."
+      },
+      "local_presence": {
+        "title": "Presença Local",
+        "description": "Oferecemos suporte local na América Latina, entendendo as necessidades específicas do mercado e proporcionando soluções adaptadas a cada região."
+      },
+      "continuous_support": {
+        "title": "Suporte Contínuo",
+        "description": "Proporcionamos acompanhamento durante todo o ciclo de vida de nossas soluções, desde a implementação até a manutenção e atualização."
+      },
+      "guaranteed_quality": {
+        "title": "Qualidade Garantida",
+        "description": "Trabalhamos com marcas reconhecidas mundialmente, garantindo a qualidade e confiabilidade de todas as nossas soluções."
+      }
+    },
+    "footer": {
+      "about": "Sobre Nós",
+      "services": "Nossos Serviços",
+      "solutions": "Soluções",
+      "contact": "Contato",
+      "transformer_monitoring": "Monitoramento de Transformadores",
+      "equipment_diagnosis": "Diagnóstico de Equipamentos",
+      "communication_systems": "Sistemas de Comunicação",
+      "copyright": "© 2025 Nodo Reliability. Todos os direitos reservados."
+    },
+    "buttons": {
+      "download": "Baixar ficha técnica",
+      "contact_now": "Contatar agora"
+    },
+    "contact": {
+      "title": "Contato",
+      "subtitle": "Estamos aqui para ajudar",
+      "form": {
+        "name": "Nome",
+        "email": "E-mail",
+        "phone": "Telefone",
+        "company": "Empresa",
+        "message": "Mensagem",
+        "submit": "Enviar mensagem"
+      },
+      "info": {
+        "title": "Informações de contato",
+        "email": "info@nodoreliability.com",
+        "phone": "+123 456 7890",
+        "address": "América Latina"
+      }
+    },
+    "newsletter": {
+      "title": "Assine nossa Newsletter",
+      "description": "Receba as últimas novidades sobre soluções de monitoramento e diagnóstico para equipamentos de alta tensão.",
+      "email_placeholder": "Endereço de e-mail",
+      "name_placeholder": "Nome",
+      "company_placeholder": "Empresa",
+      "subscribe_button": "Assinar",
+      "success_message": "Obrigado por se inscrever!",
+      "error_message": "Ocorreu um erro. Por favor, tente novamente."
+    }
+  }
+}

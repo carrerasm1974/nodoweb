@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodo Reliability - Soluciones para Monitoreo y Diagnóstico</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/submenu.css">
+    <link rel="stylesheet" href="css/newsletter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo_nodo.svg" alt="Nodo Reliability Logo">
+                </a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+                    <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+                    <li><a href="servicios.html" data-i18n="nav.services">Servicios</a></li>
+                    <li><a href="soluciones.html" data-i18n="nav.solutions" class="has-submenu">Soluciones</a></li>
+                    <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <select id="languageSelector">
+                    <option value="es">ES</option>
+                    <option value="en">EN</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1 data-i18n="nav.home">Inicio</h1>
+            <p data-i18n="home.subtitle">Soluciones para equipos primarios de alta tensión en Latinoamérica</p>
+        </div>
+    </div>
+
+    <!-- Hero Banner Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-i18n="hero.title">SOLUCIONES DE MONITOREO Y DIAGNÓSTICO</h1>
+                <p data-i18n="hero.subtitle">Para equipos primarios de alta tensión en Latinoamérica</p>
+                <a href="#soluciones" class="btn" data-i18n="hero.button">Conocer más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Representadas Section -->
+    <section class="representadas" id="representadas">
+        <div class="container">
+            <h2 class="section-title" data-i18n="home.representatives">Nuestras Representadas</h2>
+            <p data-i18n="home.representatives_desc">En Nodo Reliability representamos a empresas líderes en el sector de monitoreo y diagnóstico de equipos de alta tensión, ofreciendo soluciones de calidad para el mercado latinoamericano.</p>
+            
+            <div class="representadas-grid">
+                <div class="representada-card">
+                    <img src="assets/images/logo_nodo.svg" alt="Dynamic Ratings">
+                    <div class="representada-card-content">
+                        <h3 data-i18n="home.dynamic_ratings">Dynamic Ratings</h3>
+                        <p data-i18n="home.dynamic_ratings_desc">Soluciones avanzadas para el monitoreo y diagnóstico de transformadores y equipos de alta tensión.</p>
+                    </div>
+                </div>
+                <div class="representada-card">
+                    <img src="assets/images/logo_nodo.svg" alt="Próximamente">
+                    <div class="representada-card-content">
+                        <h3 data-i18n="home.coming_soon">Próximamente</h3>
+                        <p data-i18n="home.coming_soon_desc">Estamos en constante búsqueda de nuevas representadas para ampliar nuestra oferta de soluciones.</p>
+                    </div>
+                </div>
+                <div class="representada-card">
+                    <img src="assets/images/logo_nodo.svg" alt="Próximamente">
+                    <div class="representada-card-content">
+                        <h3 data-i18n="home.coming_soon">Próximamente</h3>
+                        <p data-i18n="home.coming_soon_desc">Estamos en constante búsqueda de nuevas representadas para ampliar nuestra oferta de soluciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soluciones Section -->
+    <section class="soluciones" id="soluciones">
+        <div class="container">
+            <h2 class="section-title" data-i18n="home.solutions">Nuestras Soluciones</h2>
+            <p data-i18n="home.solutions_desc">Ofrecemos soluciones integrales para el monitoreo y diagnóstico de equipos primarios de alta tensión, adaptadas a las necesidades específicas de cada cliente.</p>
+            
+            <div class="soluciones-grid">
+                <div class="solucion-card">
+                    <img src="https://via.placeholder.com/400x300" alt="Monitoreo de Transformadores">
+                    <div class="solucion-card-content">
+                        <h3 data-i18n="home.transformer_monitoring">Monitoreo de Transformadores</h3>
+                        <p data-i18n="home.transformer_monitoring_desc">Sistemas avanzados para el monitoreo en tiempo real de transformadores de potencia, permitiendo la detección temprana de fallos y la optimización del mantenimiento.</p>
+                        <a href="soluciones.html#transformadores" class="btn-secondary" data-i18n="home.see_more">Ver más</a>
+                    </div>
+                </div>
+                <div class="solucion-card">
+                    <img src="https://via.placeholder.com/400x300" alt="Diagnóstico de Equipos">
+                    <div class="solucion-card-content">
+                        <h3 data-i18n="home.equipment_diagnostics">Diagnóstico de Equipos</h3>
+                        <p data-i18n="home.equipment_diagnostics_desc">Herramientas y servicios para el diagnóstico preciso del estado de equipos primarios de alta tensión, facilitando la toma de decisiones para el mantenimiento preventivo.</p>
+                        <a href="soluciones.html#diagnostico" class="btn-secondary" data-i18n="home.see_more">Ver más</a>
+                    </div>
+                </div>
+                <div class="solucion-card">
+                    <img src="https://via.placeholder.com/400x300" alt="Sistemas de Comunicación">
+                    <div class="solucion-card-content">
+                        <h3 data-i18n="home.communication_systems">Sistemas de Comunicación</h3>
+                        <p data-i18n="home.communication_systems_desc">Soluciones de comunicación robustas y confiables para la transmisión de datos desde los equipos de monitoreo hasta los centros de control y análisis.</p>
+                        <a href="soluciones.html#comunicacion" class="btn-secondary" data-i18n="home.see_more">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valor Agregado Section -->
+    <section class="valor-agregado">
+        <div class="container">
+            <h2 class="section-title" data-i18n="home.added_value">Nuestro Valor Agregado</h2>
+            <p data-i18n="home.added_value_desc">En Nodo Reliability nos distinguimos por ofrecer un servicio integral y personalizado, respaldado por nuestra experiencia y conocimiento técnico.</p>
+            
+            <div class="valores-grid">
+                <div class="valor-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3 data-i18n="home.technical_expertise">Experiencia Técnica</h3>
+                    <p data-i18n="home.technical_expertise_desc">Contamos con un equipo de profesionales con amplia experiencia en el sector eléctrico y conocimiento especializado en equipos de alta tensión.</p>
+                </div>
+                <div class="valor-card">
+                    <i class="fas fa-globe-americas"></i>
+                    <h3 data-i18n="home.local_presence">Presencia Local</h3>
+                    <p data-i18n="home.local_presence_desc">Ofrecemos soporte local en Latinoamérica, entendiendo las necesidades específicas del mercado y proporcionando soluciones adaptadas a cada región.</p>
+                </div>
+                <div class="valor-card">
+                    <i class="fas fa-headset"></i>
+                    <h3 data-i18n="home.continuous_support">Soporte Continuo</h3>
+                    <p data-i18n="home.continuous_support_desc">Brindamos acompañamiento durante todo el ciclo de vida de nuestras soluciones, desde la implementación hasta el mantenimiento y actualización.</p>
+                </div>
+                <div class="valor-card">
+                    <i class="fas fa-award"></i>
+                    <h3 data-i18n="home.guaranteed_quality">Calidad Garantizada</h3>
+                    <p data-i18n="home.guaranteed_quality_desc">Trabajamos con marcas reconocidas a nivel mundial, garantizando la calidad y confiabilidad de todas nuestras soluciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="newsletter.title">Suscríbete a nuestro Newsletter</h2>
+            <p data-i18n="newsletter.description">Recibe las últimas novedades sobre soluciones de monitoreo y diagnóstico para equipos de alta tensión.</p>
+            
+            <div class="newsletter-form">
+                <form id="mc-embedded-subscribe-form" action="https://example.us14.list-manage.com/subscribe/post?u=XXXXX&amp;id=XXXXX" method="post" name="mc-embedded-subscribe-form" target="_blank">
+                    <div class="form-group">
+                        <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="FNAME" id="mce-FNAME" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="COMPANY" id="mce-COMPANY" placeholder="Empresa">
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" name="subscribe" id="mc-embedded-subscribe" data-i18n="newsletter.subscribe">Suscribirse</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Nodo Reliability</h3>
+                    <ul>
+                        <li><a href="nosotros.html" data-i18n="footer.about">Sobre Nosotros</a></li>
+                        <li><a href="servicios.html" data-i18n="footer.services">Nuestros Servicios</a></li>
+                        <li><a href="soluciones.html" data-i18n="footer.solutions">Soluciones</a></li>
+                        <li><a href="contacto.html" data-i18n="footer.contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 data-i18n="footer.solutions">Soluciones</h3>
+                    <ul>
+                        <li><a href="soluciones.html#transformadores" data-i18n="footer.transformer_monitoring">Monitoreo de Transformadores</a></li>
+                        <li><a href="soluciones.html#diagnostico" data-i18n="footer.equipment_diagnostics">Diagnóstico de Equipos</a></li>
+                        <li><a href="soluciones.html#comunicacion" data-i18n="footer.communication_systems">Sistemas de Comunicación</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 data-i18n="footer.contact">Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@nodoreliability.com</li>
+                        <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Latinoamérica</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nodo Reliability. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

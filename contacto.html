@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Nodo Reliability</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/submenu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo_nodo.svg" alt="Nodo Reliability Logo">
+                </a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+                    <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+                    <li><a href="servicios.html" data-i18n="nav.services">Servicios</a></li>
+                    <li><a href="soluciones.html" data-i18n="nav.solutions" class="has-submenu">Soluciones</a></li>
+                    <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <select id="languageSelector">
+                    <option value="es">ES</option>
+                    <option value="en">EN</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>Contacto</h1>
+            <p>Estamos aquí para ayudarte con tus necesidades de monitoreo y diagnóstico</p>
+        </div>
+    </div>
+
+    <!-- Contacto Section -->
+    <section class="page-section">
+        <div class="container">
+            <div class="contacto-grid">
+                <div class="contacto-form">
+                    <h2>Envíanos un mensaje</h2>
+                    <p>Completa el siguiente formulario y nos pondremos en contacto contigo a la brevedad.</p>
+                    
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" id="empresa" name="empresa" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                        <div class="form-group">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar mensaje</button>
+                    </form>
+                </div>
+                
+                <div class="contacto-info">
+                    <h2>Información de contacto</h2>
+                    <p>No dudes en contactarnos directamente a través de los siguientes medios:</p>
+                    
+                    <div style="margin-top: 30px;">
+                        <p><i class="fas fa-envelope"></i> <strong>Correo electrónico:</strong> info@nodoreliability.com</p>
+                        <p><i class="fas fa-phone"></i> <strong>Teléfono:</strong> +123 456 7890</p>
+                        <p><i class="fas fa-map-marker-alt"></i> <strong>Ubicación:</strong> Latinoamérica</p>
+                    </div>
+                    
+                    <h3 style="margin-top: 40px;">Horario de atención</h3>
+                    <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                    
+                    <h3 style="margin-top: 40px;">Solicitud de información técnica</h3>
+                    <p>Si necesitas información técnica específica sobre nuestras soluciones, puedes solicitarla a través del formulario o contactándonos directamente.</p>
+                    
+                    <h3 style="margin-top: 40px;">Soporte técnico</h3>
+                    <p>Para soporte técnico, por favor contacta a nuestro equipo especializado:</p>
+                    <p><i class="fas fa-headset"></i> soporte@nodoreliability.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preguntas Frecuentes Section -->
+    <section class="valor-agregado">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            <p>Aquí encontrarás respuestas a algunas de las preguntas más comunes sobre nuestros servicios y soluciones.</p>
+            
+            <div style="max-width: 800px; margin: 40px auto; text-align: left;">
+                <div style="margin-bottom: 30px;">
+                    <h3 style="color: var(--rojo-oscuro);">¿Qué áreas geográficas cubren sus servicios?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                </div>
+                
+                <div style="margin-bottom: 30px;">
+                    <h3 style="color: var(--rojo-oscuro);">¿Ofrecen capacitación para el uso de sus soluciones?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                </div>
+                
+                <div style="margin-bottom: 30px;">
+                    <h3 style="color: var(--rojo-oscuro);">¿Cómo se integran sus soluciones con sistemas existentes?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                </div>
+                
+                <div style="margin-bottom: 30px;">
+                    <h3 style="color: var(--rojo-oscuro);">¿Qué tipo de soporte técnico ofrecen?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                </div>
+                
+                <div>
+                    <h3 style="color: var(--rojo-oscuro);">¿Tienen representantes locales en mi país?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Nodo Reliability</h3>
+                    <ul>
+                        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="servicios.html">Nuestros Servicios</a></li>
+                        <li><a href="soluciones.html">Soluciones</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Soluciones</h3>
+                    <ul>
+                        <li><a href="soluciones.html#transformadores">Monitoreo de Transformadores</a></li>
+                        <li><a href="soluciones.html#diagnostico">Diagnóstico de Equipos</a></li>
+                        <li><a href="soluciones.html#comunicacion">Sistemas de Comunicación</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@nodoreliability.com</li>
+                        <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Latinoamérica</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nodo Reliability. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

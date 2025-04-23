@@ -1,0 +1,118 @@
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: var(--negro);
+  min-width: 200px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 10px 0;
+}
+
+.submenu.show {
+  display: block;
+}
+
+.submenu a {
+  color: var(--blanco);
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.submenu a:hover {
+  background-color: var(--gris-oscuro);
+  color: var(--naranja-claro);
+}
+
+/* Ajustes para el elemento padre del submenú */
+nav ul li {
+  position: relative;
+}
+
+/* Indicador de submenú */
+nav ul li.has-submenu > a::after {
+  content: '▼';
+  font-size: 0.7rem;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+  .solutions-submenu {
+    position: static;
+    background-color: var(--gris-oscuro);
+    box-shadow: none;
+    margin-top: 0;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .solutions-submenu.show {
+    max-height: 500px;
+    padding: 5px 0;
+  }
+  
+  .solutions-submenu a {
+    padding-left: 30px;
+  }
+  
+  nav ul li.has-submenu > a::after {
+    float: right;
+    margin-top: 5px;
+  }
+}
+
+/* Estilos para el selector de idioma mejorado */
+.language-selector {
+  position: relative;
+  margin-left: 20px;
+}
+
+.language-selector select {
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--gris-claro);
+  color: var(--blanco);
+  padding: 5px 25px 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.language-selector select:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.language-selector::after {
+  content: '▼';
+  font-size: 0.7rem;
+  color: var(--blanco);
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Estilos para las opciones del selector */
+.language-selector select option {
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+  .language-selector {
+    margin: 15px auto;
+    width: 100px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,108 @@
+/* Estilos para el formulario de newsletter */
+.newsletter-section {
+    background-color: var(--gris-oscuro);
+    padding: 60px 0;
+    margin-top: 40px;
+}
+
+.newsletter-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newsletter-container h2 {
+    color: var(--blanco);
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.newsletter-container p {
+    color: var(--gris-claro);
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+#mc_embed_signup {
+    background: transparent !important;
+    clear: left;
+    width: 100%;
+}
+
+#mc_embed_signup form {
+    padding: 0;
+}
+
+#mc_embed_signup .mc-field-group {
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+#mc_embed_signup .mc-field-group input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--gris-claro);
+    color: var(--blanco);
+    padding: 12px 15px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+#mc_embed_signup .mc-field-group input:focus {
+    outline: none;
+    border-color: var(--naranja-claro);
+}
+
+#mc_embed_signup .button {
+    background-color: var(--rojo);
+    color: var(--blanco);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: var(--naranja-claro);
+}
+
+#mc_embed_signup div.mce_inline_error {
+    background-color: rgba(255, 0, 0, 0.1) !important;
+    color: #ff6b6b !important;
+    font-weight: normal !important;
+    border-radius: 4px;
+}
+
+#mc_embed_signup div.response {
+    color: var(--blanco) !important;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#mc_embed_signup div.response.success {
+    background-color: rgba(0, 255, 0, 0.1) !important;
+}
+
+#mc_embed_signup div.response.error {
+    background-color: rgba(255, 0, 0, 0.1) !important;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .newsletter-container {
+        padding: 0 20px;
+    }
+    
+    .newsletter-container h2 {
+        font-size: 1.8rem;
+    }
+    
+    .newsletter-container p {
+        font-size: 1rem;
+    }
+}
